@@ -1,0 +1,1 @@
+GithubActions の dispatch イベント検証用リポジトリ
