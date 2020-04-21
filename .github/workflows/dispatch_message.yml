@@ -5,9 +5,9 @@ name: hello
 on:
   repository_dispatch:
     types: [hello]
-  push:
-    branches:
-      - master
+  # push:
+  #   branches:
+  #     - master
 
 jobs:
   build:
