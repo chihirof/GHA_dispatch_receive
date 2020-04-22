@@ -29,6 +29,12 @@ $ curl -X POST -H "Authorization: token $TOKEN" -H "Accept: application/vnd.gith
 - `client_payload` を指定することで、そのほかのデータを送ることができる。JSON。
 
 
+## GHA コンテキスト情報へのアクセス
+
+https://help.github.com/ja/actions/reference/context-and-expression-syntax-for-github-actions#github-context
+
+
+
 
 ## 参考
 
