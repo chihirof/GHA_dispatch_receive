@@ -27,6 +27,7 @@ $ curl -X POST -H "Authorization: token $TOKEN" -H "Accept: application/vnd.gith
 `-d '{"event_type":"hello"}'` について  
 - `event_type` は必須項目
 - `client_payload` を指定することで、そのほかのデータを送ることができる。JSON。
+  - `client_payload` の値はオブジェクトである必要がある
 
 
 ## GHA コンテキスト情報へのアクセス
